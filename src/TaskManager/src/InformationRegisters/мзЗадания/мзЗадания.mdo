@@ -159,7 +159,7 @@
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>3</precision>
+        <precision>6</precision>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
