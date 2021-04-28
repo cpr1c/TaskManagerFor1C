@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c8a8106-004c-4ae6-bd14-dff08febd35a">
+  <producedTypes>
+    <managerType typeId="ac2d772e-7b45-4bbd-8d34-b56d0aa8cf47" valueTypeId="c3ac9502-9f94-4cfb-bf27-64c91e50af66"/>
+    <valueManagerType typeId="c61e22ab-617f-4169-bfd1-c2fb221352d1" valueTypeId="3c13c548-d4b9-44ef-aeb1-39bf72e959f0"/>
+    <valueKeyType typeId="21cbdc87-16d0-4764-b0bf-110d1b9a37d6" valueTypeId="3cc4b96d-f33f-4d61-bc03-485c5983b896"/>
+  </producedTypes>
+  <name>мзОграничениеНаКоличествоИсполнителей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ограничение на количество исполнителей (Менеджер заданий)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>4</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

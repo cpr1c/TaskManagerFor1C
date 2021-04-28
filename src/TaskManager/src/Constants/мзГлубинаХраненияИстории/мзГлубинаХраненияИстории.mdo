@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1cca4774-fba3-43f1-9f34-2641c3375637">
+  <producedTypes>
+    <managerType typeId="05b094f4-4c0f-4b47-9355-82bbe1f26f1d" valueTypeId="c9c1c703-081e-4b5e-bdc5-9fad7f91186a"/>
+    <valueManagerType typeId="8db1c4f4-1173-446e-9381-5621d7ff14cb" valueTypeId="3671233f-c5dc-4c7e-9de8-4e6b48a32177"/>
+    <valueKeyType typeId="02590d3f-f23f-4359-8d30-9fd3503e33f8" valueTypeId="204c89af-a281-4159-ada8-119675ed98a7"/>
+  </producedTypes>
+  <name>мзГлубинаХраненияИстории</name>
+  <synonym>
+    <key>ru</key>
+    <value>Глубина хранения истории (Менеджер заданий)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

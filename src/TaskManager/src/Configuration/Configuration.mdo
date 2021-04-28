@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e302fbb1-aef3-433e-9cb9-34a4ad9630dc">
+  <name>МенеджерЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Менеджер заданий</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="d4ee4510-bed5-42d3-b89f-8b283ac043c8"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="8ad3d545-8ba9-4d4a-b0db-b5348b7591bf"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="87a7a38f-b315-4a8b-a706-55edf34f8745"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="ef20fb34-28f5-48d2-a965-cc5b56ea4266"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="b53df17d-483e-43a5-87a2-2e14790a3f3a"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="62fb0ddb-9764-44f1-8da3-e3e952279459"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="d7a73603-cd18-493d-ab30-3c7982fcbb8e"/>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Evgeniy Pavlyuk</vendor>
+  <version>1.4.5</version>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>Менеджер заданий</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Менеджер заданий</value>
+  </detailedInformation>
+  <copyright>
+    <key>ru</key>
+    <value>Evgeniy Pavlyuk</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>https://www.linkedin.com/in/epavlyuk</value>
+  </vendorInformationAddress>
+  <configurationInformationAddress>
+    <key>ru</key>
+    <value>https://github.com/wizi4d/TaskManager1C</value>
+  </configurationInformationAddress>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <interfaceCompatibilityMode>Version8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.2.16</compatibilityMode>
+  <languages uuid="24152e5d-87e0-415f-8850-466beb95ba11">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.МенеджерЗаданий</subsystems>
+  <subsystems>Subsystem.ДляТестов</subsystems>
+  <commonModules>CommonModule.мзЗадания</commonModules>
+  <commonModules>CommonModule.Тестирование</commonModules>
+  <scheduledJobs>ScheduledJob.мзМенеджерЗаданий</scheduledJobs>
+  <constants>Constant.мзГлубинаХраненияИстории</constants>
+  <constants>Constant.мзОграничениеНаКоличествоИсполнителей</constants>
+  <enums>Enum.мзСостоянияЗаданий</enums>
+  <dataProcessors>DataProcessor.мзУправлениеМенеджеромЗаданий</dataProcessors>
+  <informationRegisters>InformationRegister.мзЗадания</informationRegisters>
+  <informationRegisters>InformationRegister.мзНастройкиМетодовОбработчиков</informationRegisters>
+</mdclass:Configuration>
