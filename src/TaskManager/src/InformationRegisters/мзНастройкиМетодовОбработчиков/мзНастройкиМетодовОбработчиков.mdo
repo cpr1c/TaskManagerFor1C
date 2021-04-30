@@ -117,7 +117,7 @@
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>1</precision>
+        <precision>2</precision>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -126,11 +126,29 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <dimensions uuid="60c1e279-df24-4dea-af04-b5150c834e01">
-    <name>ИмяМетода</name>
+  <dimensions uuid="42172921-7c44-4b6c-979b-8713806e475f">
+    <name>Метод</name>
     <synonym>
       <key>ru</key>
-      <value>Имя метода</value>
+      <value>Метод</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.мзМетоды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="60c1e279-df24-4dea-af04-b5150c834e01">
+    <name>УдалитьИмяМетода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить имя метода</value>
     </synonym>
     <type>
       <types>String</types>

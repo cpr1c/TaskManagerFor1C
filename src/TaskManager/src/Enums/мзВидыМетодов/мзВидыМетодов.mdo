@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="deb3ca95-c916-4eff-a3f9-f3b386a34813">
+  <producedTypes>
+    <refType typeId="0ec10c4b-49ab-4d80-8fa0-c909fd270651" valueTypeId="1a60914c-64d1-4391-855a-0d1300b04749"/>
+    <listType typeId="eca36121-77b0-4ee7-8d3a-366f7f8e954f" valueTypeId="47343d5a-000c-4041-9d73-e4adf52523ba"/>
+    <managerType typeId="ae2ad880-53e9-4d10-9caf-862f4a395b43" valueTypeId="80b14e51-abc8-4a8f-a587-a18defc5ebe6"/>
+  </producedTypes>
+  <name>мзВидыМетодов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды методов (Менеджер заданий)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6d17dd29-7624-4949-8579-b24f706b1f7b">
+    <name>ПроизвольныйАлгоритм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольный алгоритм</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

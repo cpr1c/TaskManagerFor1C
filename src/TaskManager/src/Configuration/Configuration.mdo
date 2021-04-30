@@ -62,7 +62,9 @@
   <scheduledJobs>ScheduledJob.мзМенеджерЗаданий</scheduledJobs>
   <constants>Constant.мзГлубинаХраненияИстории</constants>
   <constants>Constant.мзОграничениеНаКоличествоИсполнителей</constants>
+  <catalogs>Catalog.мзМетоды</catalogs>
   <enums>Enum.мзСостоянияЗаданий</enums>
+  <enums>Enum.мзВидыМетодов</enums>
   <dataProcessors>DataProcessor.мзУправлениеМенеджеромЗаданий</dataProcessors>
   <informationRegisters>InformationRegister.мзЗадания</informationRegisters>
   <informationRegisters>InformationRegister.мзНастройкиМетодовОбработчиков</informationRegisters>

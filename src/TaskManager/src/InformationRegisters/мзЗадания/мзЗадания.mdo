@@ -69,10 +69,10 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="e3046c06-e7a5-4246-90c5-e9d69276b32a">
-    <name>ИмяМетода</name>
+    <name>УдалитьИмяМетода</name>
     <synonym>
       <key>ru</key>
-      <value>Имя метода</value>
+      <value>Удалить имя метода</value>
     </synonym>
     <type>
       <types>String</types>
@@ -82,12 +82,27 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
+  </attributes>
+  <attributes uuid="1fe5d311-53ad-488f-9f0a-f77d7476172b">
+    <name>Метод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.мзМетоды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="751c1ca7-00fb-4fa9-b642-f96bd30d1586">
     <name>Параметры</name>

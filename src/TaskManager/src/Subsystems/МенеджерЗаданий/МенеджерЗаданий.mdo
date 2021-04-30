@@ -15,4 +15,6 @@
   <content>Enum.мзСостоянияЗаданий</content>
   <content>Constant.мзГлубинаХраненияИстории</content>
   <content>InformationRegister.мзНастройкиМетодовОбработчиков</content>
+  <content>Catalog.мзМетоды</content>
+  <content>Enum.мзВидыМетодов</content>
 </mdclass:Subsystem>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bcff7c3-6a69-4d6b-9807-963217c60123">
+  <producedTypes>
+    <objectType typeId="5e36d9a8-8368-40ed-a49b-0f7b6eb42e16" valueTypeId="6baf4514-d283-4651-aad6-3040c4835628"/>
+    <refType typeId="8ade5065-8302-4d16-ab2c-9e3fb7ff2050" valueTypeId="d2c40e3c-5d92-4a67-b044-096d68e4844a"/>
+    <selectionType typeId="78b537ab-88ee-4cfb-ba23-5a601d1d342f" valueTypeId="eae08a8a-a31c-40b3-8099-06c753be0244"/>
+    <listType typeId="ce4aa94b-b8da-4f6b-b2a5-3c714953f44a" valueTypeId="73886189-ddd2-496f-9a4d-b4d83c966dc4"/>
+    <managerType typeId="9870b6ee-4a76-47e5-86a7-5d139a4c1285" valueTypeId="dc3e57c7-a9ad-4259-97bc-ef2b4252d833"/>
+  </producedTypes>
+  <name>мзМетоды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методы (Менеджер заданий)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.мзМетоды.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.мзМетоды.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Метод</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Методы менеджера заданий</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.мзМетоды.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="ce554de9-919c-46ef-8c58-df0958c4b620">
+    <name>ВидМетода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид метода</value>
+    </synonym>
+    <type>
+      <types>EnumRef.мзВидыМетодов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.мзВидыМетодов.EnumValue.ПроизвольныйАлгоритм</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c523ffdc-e607-4ca7-859b-5b75a1523135">
+    <name>Алгоритм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Алгоритм</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b48a0065-9ead-48cd-a4da-b9a30d01e207">
+    <name>Использование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использование</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="677dbc53-97d9-4d1c-8c7a-ea47ada13fd2">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
