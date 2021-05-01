@@ -12,6 +12,13 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a1fe088c-9bba-4603-8279-b4698c9d130e">
+    <name>ВызовМетода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вызов метода</value>
+    </synonym>
+  </enumValues>
   <enumValues uuid="6d17dd29-7624-4949-8579-b24f706b1f7b">
     <name>ПроизвольныйАлгоритм</name>
     <synonym>

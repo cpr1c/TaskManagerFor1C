@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9941816-9a74-466b-9ebf-b6fa285fd841">
+  <name>мзОбщегоНазначения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общего назначения (Менеждер заданий)</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

@@ -54,7 +54,7 @@
     <fillChecking>ShowError</fillChecking>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:ReferenceValue">
-      <value>Enum.мзВидыМетодов.EnumValue.ПроизвольныйАлгоритм</value>
+      <value>Enum.мзВидыМетодов.EnumValue.ВызовМетода</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
