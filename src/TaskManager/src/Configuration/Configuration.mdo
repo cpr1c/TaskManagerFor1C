@@ -57,8 +57,11 @@
   </languages>
   <subsystems>Subsystem.МенеджерЗаданий</subsystems>
   <subsystems>Subsystem.ДляТестов</subsystems>
+  <commonPictures>CommonPicture.СостояниеВыполненияЗадания</commonPictures>
   <commonModules>CommonModule.мзЗадания</commonModules>
+  <commonModules>CommonModule.мзЗаданияПовтИсп</commonModules>
   <commonModules>CommonModule.мзОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.мзОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.Тестирование</commonModules>
   <scheduledJobs>ScheduledJob.мзМенеджерЗаданий</scheduledJobs>
   <constants>Constant.мзГлубинаХраненияИстории</constants>

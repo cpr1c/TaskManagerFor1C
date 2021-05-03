@@ -109,6 +109,51 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <tabularSections uuid="1151f8b8-ea83-4129-a2ad-b873429106e1">
+    <producedTypes>
+      <objectType typeId="310f4b1f-12b6-445d-b3b2-4576a6a67b36" valueTypeId="b3f6d0fa-857c-4986-88e5-1532efb3aaaf"/>
+      <rowType typeId="213c8a54-3848-4187-9735-c21472c95cf5" valueTypeId="af0b42a9-9dc2-4123-8be0-5eb955d518e0"/>
+    </producedTypes>
+    <name>ПараметрыМетода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры метода</value>
+    </synonym>
+    <attributes uuid="12b450cd-5a97-4f0e-9b2a-b7ffef30fdc1">
+      <name>ИмяПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя параметра</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="19ef3eda-dbac-4c5a-ad11-801be3039b40">
+      <name>ТипПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип параметра</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="7b40fb87-e72c-4ea9-8125-c162844c634a">
     <name>ФормаЭлемента</name>
     <synonym>

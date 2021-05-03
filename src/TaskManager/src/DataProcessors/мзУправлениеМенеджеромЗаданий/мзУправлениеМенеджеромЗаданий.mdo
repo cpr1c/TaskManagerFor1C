@@ -20,4 +20,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="bc350aa4-c466-4a66-a838-204474139980">
+    <name>СостояниеВыполненияЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние выполнения заданий</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>
