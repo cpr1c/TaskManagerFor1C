@@ -17,4 +17,5 @@
   <content>InformationRegister.мзНастройкиМетодовОбработчиков</content>
   <content>Catalog.мзМетоды</content>
   <content>Enum.мзВидыМетодов</content>
+  <content>InformationRegister.мзСостояниеЗаданий</content>
 </mdclass:Subsystem>

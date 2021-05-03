@@ -69,4 +69,5 @@
   <dataProcessors>DataProcessor.мзУправлениеМенеджеромЗаданий</dataProcessors>
   <informationRegisters>InformationRegister.мзЗадания</informationRegisters>
   <informationRegisters>InformationRegister.мзНастройкиМетодовОбработчиков</informationRegisters>
+  <informationRegisters>InformationRegister.мзСостояниеЗаданий</informationRegisters>
 </mdclass:Configuration>
