@@ -6,6 +6,10 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
+      <command>InformationRegister.мзСостояниеЗаданий.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>Constant.мзГлубинаХраненияИстории.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>

@@ -17,7 +17,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Evgeniy Pavlyuk</vendor>
-  <version>1.4.5</version>
+  <version>1.4.6</version>
   <requiredMobileApplicationPermissions>
     <permission>AllowOSBackup</permission>
     <use>true</use>
@@ -57,7 +57,7 @@
   </languages>
   <subsystems>Subsystem.МенеджерЗаданий</subsystems>
   <subsystems>Subsystem.ДляТестов</subsystems>
-  <commonPictures>CommonPicture.СостояниеВыполненияЗадания</commonPictures>
+  <commonPictures>CommonPicture.мзСостояниеВыполненияЗадания</commonPictures>
   <commonModules>CommonModule.мзЗадания</commonModules>
   <commonModules>CommonModule.мзЗаданияПовтИсп</commonModules>
   <commonModules>CommonModule.мзОбщегоНазначения</commonModules>

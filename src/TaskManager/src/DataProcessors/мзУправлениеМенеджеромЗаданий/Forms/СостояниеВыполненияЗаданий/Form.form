@@ -21,10 +21,6 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
-        <paths xsi:type="form:DataPath">
-          <segments>ТаблицаЗаданий.Метод</segments>
-        </paths>
         <paths xsi:type="form:DataPath">
           <segments>ТаблицаЗаданий.Метод</segments>
         </paths>
@@ -77,10 +73,6 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
-        <paths xsi:type="form:DataPath">
-          <segments>ТаблицаЗаданий.Состояние</segments>
-        </paths>
         <paths xsi:type="form:DataPath">
           <segments>ТаблицаЗаданий.Состояние</segments>
         </paths>
@@ -121,7 +113,7 @@
         <horizontalStretch>true</horizontalStretch>
         <verticalStretch>true</verticalStretch>
         <valuesPicture xsi:type="core:PictureRef">
-          <picture>CommonPicture.СостояниеВыполненияЗадания</picture>
+          <picture>CommonPicture.мзСостояниеВыполненияЗадания</picture>
         </valuesPicture>
         <fileDragMode>AsFileRef</fileDragMode>
       </extInfo>
@@ -135,10 +127,6 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
-        <paths xsi:type="form:DataPath">
-          <segments>ТаблицаЗаданий.ЕстьОшибки</segments>
-        </paths>
         <paths xsi:type="form:DataPath">
           <segments>ТаблицаЗаданий.ЕстьОшибки</segments>
         </paths>
@@ -188,10 +176,6 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
-        <paths xsi:type="form:DataPath">
-          <segments>ТаблицаЗаданий.ПроцентВыполнения</segments>
-        </paths>
         <paths xsi:type="form:DataPath">
           <segments>ТаблицаЗаданий.ПроцентВыполнения</segments>
         </paths>
@@ -438,6 +422,7 @@
     <horizontalStretch>true</horizontalStretch>
     <verticalStretch>true</verticalStretch>
     <fileDragMode>AsFileRef</fileDragMode>
+    <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
@@ -541,12 +526,12 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
-    <event>BeforeClose</event>
-    <name>ПередЗакрытием</name>
-  </handlers>
-  <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>BeforeClose</event>
+    <name>ПередЗакрытием</name>
   </handlers>
   <handlers>
     <event>OnCreateAtServer</event>
